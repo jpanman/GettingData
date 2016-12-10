@@ -35,3 +35,14 @@ This uses cbind to preserve the ordering of the data.
 # Replacing activity numbers with descriptive names, 
 Loading the "activity_labels.txt" files and matching the activity labels in the 'actions' using merge. Since the ordering doesn't matter anymore we can use this function.
 The obsolete activity code column is removed, and the descriptive activity column is renamed.
+
+# Variables:
+* subject_ID : identifier number of subject with samsung phone
+* activity: 6 different acitivities performed: 
+  1 WALKING
+  2 WALKING_UPSTAIRS
+  3 WALKING_DOWNSTAIRS
+  4 SITTING
+  5 STANDING
+  6 LAYING
+* Other variables: 88 variables with variety of sensors for acceleration, gravity in the x,y,z axes. Only standard deviations and means are filtered out.
